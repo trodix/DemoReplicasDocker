@@ -1,0 +1,7 @@
+services:
+  demo-replicat-docker:
+    image: trodix/demo-replicat-docker
+    ports:
+      - "7000:7000"
+    deploy:
+      replicas: 2
